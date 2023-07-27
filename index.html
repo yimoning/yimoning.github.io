@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Webpage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>hello world</h1>
+    <header>
+        <h1>Welcome to My Webpage!</h1>
+    </header>
+
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section id="about">
+            <div class="profile">
+                <img src="image/my_pic.JPG" id="profile-pic">
+                <address>
+                    <h3>Yimo Ning</h3>
+                    <p>Phone: <span>819-345-0213</span></p>
+                    <p>Location: Hamilton, ON</p>
+                    <p>Email: <span>ningy7@mcmaster.ca</span></p>
+                </address>
+            </div>
+            <p>Content for About Me...</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Content for Projects...</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/yimo-ning" target="_blank"><img src="image/linkedin_icon.png"></a>
+            <a href="https://github.com/yimoning" target="_blank"><img src="image/github_icon.png"></a>
+            <a href="mailto:ningy7@mcmaster.ca"><img src="image/email_icon.png"></a>
+            <a href="tel:8193450213"><img src="image/phone_icon.png"></a>
+        </div>
+        <p>Copyright &copy; 2023</p>
+    </footer>
 </body>
 </html>
